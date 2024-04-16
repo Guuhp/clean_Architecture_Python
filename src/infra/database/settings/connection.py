@@ -9,7 +9,7 @@ class DBConnectionHandler:
             "mysql+pymysql",
             "root",
             "admin",
-            "192.168.101.11",
+            "localhost",
             "3308",
             "clean_database",
         )
