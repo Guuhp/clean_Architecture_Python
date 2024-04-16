@@ -1,4 +1,6 @@
-# pylint:disable=broad-exception-raised, C0303: Trailing whitespace
+# pylint:disable=broad-exception-raised
+# pylint:disable=trailing-whitespace
+
 from typing import Dict
 from src.domain.use_cases.user_register import UserRegister as UserRegisterInterface
 from src.infra.database.repositories.users_repository import UsersRepositoryInterface
